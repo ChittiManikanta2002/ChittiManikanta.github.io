@@ -78,3 +78,4 @@
 - Playing Cricket
 - Cooking
 - Yoga
+You can view my detailed resume [here](portfolio.html).
