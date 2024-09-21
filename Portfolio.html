@@ -14,35 +14,38 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #e9ecef; /* Light gray background */
+            background-color: #f0f8ff; /* Alice blue background */
             color: #333;
         }
 
         .container {
             width: 80%;
             margin: 20px auto;
-            background: black;
+            background: #282c34; /* Dark background */
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
 
         header {
             margin-bottom: 20px;
-            text-align: left; /* Left alignment */
+            text-align: left;
+            border-bottom: 2px solid #007bff; /* Blue underline */
+            padding-bottom: 10px;
         }
 
         header h1 {
-            font-size: 2rem;
-            color: Blue;
+            font-size: 2.5rem;
+            color: #61dafb; /* React blue */
         }
 
         header p {
             font-size: 1rem;
+            color: #ffffff; /* White text */
         }
 
         header a {
-            color: #007bff;
+            color: #61dafb;
             text-decoration: none;
         }
 
@@ -55,30 +58,54 @@
         }
 
         h2 {
-            font-size: 1.5rem;
-            color: Red; /* Changed to blue */
+            font-size: 1.8rem;
+            color: #ff6347; /* Tomato */
             margin-bottom: 10px;
-            border-bottom: 2px; /* Changed to blue */
+            border-bottom: 2px solid #ff6347; /* Tomato underline */
             padding-bottom: 5px;
         }
 
         h3 {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             margin-top: 10px;
-            color: black; /* Changed to blue */
+            color: #ffd700; /* Gold */
         }
 
         p {
             font-size: 1rem;
             margin: 5px 0;
+            color: #ffffff; /* White text */
         }
 
         a {
-            color: #007bff;
+            color: #61dafb;
         }
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .projects div {
+            background-color: #4caf50; /* Green */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: transform 0.2s;
+        }
+
+        .projects div:hover {
+            transform: scale(1.05);
+        }
+
+        .skills, .languages, .certifications, .hobbies {
+            background-color: #3f51b5; /* Indigo */
+            padding: 10px;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+
+        .skills p, .languages p, .certifications p, .hobbies p {
+            margin: 5px 0;
         }
     </style>
 </head>
