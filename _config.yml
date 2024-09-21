@@ -1,4 +1,2 @@
-title: "Chitti Manikanta"
-description: "A brief overview of Chitti Manikanta's projects, skills, and more."
-url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL
-baseurl: ""  # Optional: Add if you're using a subpath, e.g., "/myproject"
+theme: jekyll-theme-minimal
+title: Chitti Manikanta
