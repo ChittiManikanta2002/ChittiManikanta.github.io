@@ -3,74 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chitti Manikanta Resume</title>
+    <title>Chitti Manikanta Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background-color: #f4f4f4;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h1 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        .section {
+            text-align: center;
+            color: #333;
             margin-bottom: 20px;
+            font-weight: 600;
         }
-        .contact-info, .section ul {
-            list-style: none;
-            padding: 0;
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
         }
         .contact-info li {
-            margin-bottom: 10px;
+            display: inline;
+            margin: 0 15px;
+            font-weight: 500;
+            color: #555;
         }
         .contact-info a {
             color: #0073e6;
             text-decoration: none;
         }
-        .section ul li {
-            margin-bottom: 10px;
-        }
-        .section ul li p {
-            margin: 0;
+        .section {
+            margin-bottom: 40px;
         }
         .section-title {
-            font-size: 20px;
-            color: #333;
+            font-size: 24px;
+            color: #0073e6;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
             border-bottom: 2px solid #0073e6;
-            margin-bottom: 10px;
-            padding-bottom: 5px;
+            display: inline-block;
+            padding-bottom: 10px;
         }
-        .section h3 {
-            margin: 10px 0;
+        .education, .projects {
+            margin-bottom: 20px;
+        }
+        .project-item, .education-item {
+            margin-bottom: 20px;
+        }
+        .project-item h3, .education-item h3 {
             font-size: 18px;
+            color: #333;
+            font-weight: 500;
         }
-        .project-item {
-            margin-bottom: 15px;
+        .project-item p, .education-item p {
+            font-size: 16px;
+            color: #555;
         }
         .skills-list, .languages-list, .hobbies-list {
             display: flex;
             flex-wrap: wrap;
+            gap: 10px;
         }
         .skills-list li, .languages-list li, .hobbies-list li {
-            margin-right: 20px;
-            margin-bottom: 5px;
+            background-color: #0073e6;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
         }
         .certifications-list li {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+        .skills-title, .languages-title, .certifications-title, .hobbies-title {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #0073e6;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #777;
         }
     </style>
 </head>
@@ -79,88 +108,91 @@
 <div class="container">
     <h1>Chitti Manikanta</h1>
 
-    <div class="section">
+    <div class="contact-info">
         <ul class="contact-info">
             <li><strong>Phone:</strong> +91-9381065160</li>
             <li><strong>Email:</strong> <a href="mailto:chittimanikanta2002@gmail.com">chittimanikanta2002@gmail.com</a></li>
-            <li><strong>Email 2:</strong> <a href="mailto:2100040360ece@gmail.com">2100040360ece@gmail.com</a></li>
             <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chitti-manikanta-089160226/">Chitti Manikanta</a></li>
-            <li><strong>University:</strong> Koneru Lakshmaiah University</li>
-            <li><strong>Course:</strong> BTech, ECE</li>
-            <li><strong>Roll No:</strong> 2100040360</li>
-            <li><strong>CGPA:</strong> 9.02 (Expected Graduation: 2025)</li>
         </ul>
     </div>
 
-    <div class="section">
+    <div class="section education">
         <div class="section-title">Education</div>
-        <ul>
-            <li><strong>Koneru Lakshmaiah University</strong> - BTech ECE (2025), CGPA: 9.02</li>
-            <li><strong>Sri Chaitanya Junior College</strong> - Board of Intermediate Education, AP (2021), Percentage: 89%</li>
-            <li><strong>AP Model School</strong> - Board of Secondary Education, AP (2019), CGPA: 9.3</li>
-        </ul>
+        <div class="education-item">
+            <h3>Koneru Lakshmaiah University</h3>
+            <p>BTech ECE (2025), CGPA: 9.02</p>
+        </div>
+        <div class="education-item">
+            <h3>Sri Chaitanya Junior College</h3>
+            <p>Board of Intermediate Education, AP (2021), Percentage: 89%</p>
+        </div>
+        <div class="education-item">
+            <h3>AP Model School</h3>
+            <p>Board of Secondary Education, AP (2019), CGPA: 9.3</p>
+        </div>
     </div>
 
-    <div class="section">
+    <div class="section projects">
         <div class="section-title">Projects</div>
         <div class="project-item">
             <h3>Line Follower Robot</h3>
             <p>Designed a line-following robot for autonomous navigation, integrating sensors and control algorithms for precise path tracking.</p>
             <p><strong>Tools & Technologies:</strong> Arduino</p>
-            <p>Designed and developed a line-following robot with sensor fusion and PID control for precise navigation. Collaborated in a cross-functional team to integrate hardware seamlessly and validate performance.</p>
         </div>
         <div class="project-item">
             <h3>Simple Water Level Indicator</h3>
-            <p>Developed a simple water level indicator using sensors and alert mechanisms to prevent overflow and dry-running in containers.</p>
+            <p>Developed a water level indicator using sensors and alert mechanisms to prevent overflow and dry-running in containers.</p>
             <p><strong>Tools & Technologies:</strong> Arduino</p>
-            <p>A simple water level indicator is a device that signals when the water level in a container reaches a certain point. It typically consists of a sensor, such as a float switch or probes, and an alert mechanism like a light or buzzer.</p>
         </div>
         <div class="project-item">
             <h3>Rainfall Prediction Using Machine Learning</h3>
-            <p>Developed advanced rainfall prediction models to optimize accuracy for applications in agriculture and disaster management.</p>
+            <p>Developed rainfall prediction models to optimize accuracy for applications in agriculture and disaster management.</p>
             <p><strong>Tools & Technologies:</strong> Jupyter Notebook</p>
-            <p>Implemented a rainfall prediction system using LSTM, ANN, and RNN algorithms, enhancing accuracy in weather forecasting. Collaborated with peers to preprocess data, train models, and deploy the system effectively.</p>
         </div>
     </div>
 
     <div class="section">
-        <div class="section-title">Technical Skills and Interests</div>
+        <div class="skills-title">Technical Skills</div>
         <ul class="skills-list">
-            <li><strong>C</strong></li>
-            <li><strong>Python</strong></li>
-            <li><strong>OOP (Object-Oriented Programming)</strong></li>
-            <li><strong>SQL</strong></li>
-            <li><strong>Problem Solving</strong></li>
-            <li><strong>Data Structures</strong></li>
+            <li>C</li>
+            <li>Python</li>
+            <li>OOP (Object-Oriented Programming)</li>
+            <li>SQL</li>
+            <li>Problem Solving</li>
+            <li>Data Structures</li>
         </ul>
     </div>
 
     <div class="section">
-        <div class="section-title">Languages</div>
+        <div class="languages-title">Languages</div>
         <ul class="languages-list">
-            <li><strong>English</strong></li>
-            <li><strong>Telugu</strong></li>
+            <li>English</li>
+            <li>Telugu</li>
         </ul>
     </div>
 
     <div class="section">
-        <div class="section-title">Certifications</div>
+        <div class="certifications-title">Certifications</div>
         <ul class="certifications-list">
-            <li><strong>Python Fundamentals for Beginners</strong> (2023)</li>
-            <li><strong>Fundamentals of Artificial Intelligence and Machine Learning</strong> (2023)</li>
+            <li>Python Fundamentals for Beginners (2023)</li>
+            <li>Fundamentals of Artificial Intelligence and Machine Learning (2023)</li>
         </ul>
     </div>
 
     <div class="section">
-        <div class="section-title">Hobbies</div>
+        <div class="hobbies-title">Hobbies</div>
         <ul class="hobbies-list">
-            <li><strong>Chess</strong></li>
-            <li><strong>Playing Cricket</strong></li>
-            <li><strong>Cooking</strong></li>
-            <li><strong>Yoga</strong></li>
+            <li>Chess</li>
+            <li>Playing Cricket</li>
+            <li>Cooking</li>
+            <li>Yoga</li>
         </ul>
     </div>
 </div>
+
+<footer>
+    <p>© 2024 Chitti Manikanta | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
